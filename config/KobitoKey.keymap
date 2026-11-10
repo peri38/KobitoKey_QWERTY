@@ -93,7 +93,7 @@
 &kp ESCAPE  &trans          &kp UP_ARROW    &hankaku_kakko   &zenkaku_kagi         &kp MINUS  &trans     &kp UP    &trans     &trans
 &mkp MB4    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB5              &kp PLUS   &kp LEFT   &kp DOWN  &kp RIGHT  &trans
 &trans      &trans          &trans          &trans           &kp RS(RG(NUMBER_4))  &kp ASTRK  &kp SLASH  &kp LBKT  &kp RBKT   &trans
-&trans      &trans          &trans          &kp LSHFT        &trans                &trans     &trans     &trans    &trans     &trans
+&trans      &trans          &trans          &trans           &trans                &trans     &trans     &trans    &trans     &trans
             >;
         };
 
@@ -110,10 +110,10 @@
         layer3 {
             label = "MOUSE";
             bindings = <
-&trans     &trans        &trans    &trans  &trans    &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans     &trans        &trans    &trans  &trans    &trans  &trans    &trans    &trans    &trans
-&trans     &trans        &trans    &trans  &trans    &trans  &trans    &trans    &trans    &trans
-&kp LSHFT  &kp LEFT_ALT  &kp LCMD  &to 0   &mkp MB1  &trans  &trans    &trans    &to 0     &kp RALT
+&trans     &trans        &trans  &trans  &trans    &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans     &trans        &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans
+&trans     &trans        &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans
+&kp LSHFT  &kp LEFT_ALT  &trans  &to 0   &mkp MB1  &trans  &trans    &trans    &to 0     &kp RALT
             >;
         };
 
