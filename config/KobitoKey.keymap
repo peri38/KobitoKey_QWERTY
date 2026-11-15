@@ -90,10 +90,10 @@
         layer1 {
             label = "ARROW";
             bindings = <
-&kp ESCAPE  &trans          &kp UP_ARROW    &hankaku_kakko   &zenkaku_kagi         &kp MINUS  &trans     &kp UP    &trans     &trans
-&mkp MB4    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB5              &kp PLUS   &kp LEFT   &kp DOWN  &kp RIGHT  &trans
-&trans      &trans          &trans          &trans           &kp RS(RG(NUMBER_4))  &kp ASTRK  &kp SLASH  &kp LBKT  &kp RBKT   &trans
-&trans      &trans          &trans          &trans           &trans                &trans     &trans     &trans    &trans     &trans
+&kp ESCAPE  &trans          &kp UP_ARROW    &hankaku_kakko   &zenkaku_kagi         &kp LEFT_PARENTHESIS   &trans     &kp UP    &trans     &trans
+&mkp MB4    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB5              &kp RIGHT_PARENTHESIS  &kp LEFT   &kp DOWN  &kp RIGHT  &trans
+&trans      &trans          &trans          &trans           &kp RS(RG(NUMBER_4))  &kp ASTRK              &kp SLASH  &kp LBKT  &kp RBKT   &trans
+&trans      &trans          &trans          &trans           &trans                &trans                 &trans     &trans    &trans     &trans
             >;
         };
 
@@ -103,7 +103,7 @@
 &trans  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp PIPE     &kp DOLLAR     &kp SLASH      &kp N7        &kp N8        &kp N9        &kp ASTRK
 &trans  &trans            &kp COLON          &kp AT_SIGN  &kp AMPERSAND  &kp HASH       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
 &trans  &trans            &kp SEMI           &trans       &kp PERCENT    &kp PERIOD     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-&trans  &trans            &trans             &trans       &trans         &kp BACKSPACE  &trans        &kp N0        &kp MINUS     &kp EQUAL
+&trans  &trans            &trans             &trans       &trans         &kp BACKSPACE  &kp PERIOD    &kp N0        &kp MINUS     &kp EQUAL
             >;
         };
 
