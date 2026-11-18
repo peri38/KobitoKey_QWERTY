@@ -6,7 +6,7 @@ include:
  - board: seeeduino_xiao_ble
    shield: KobitoKey_left rgbled_adapter
    snippet: studio-rpc-usb-uart
-   cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"KobitoKey2\"
+   cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"KobitoKey2\" -DCONFIG_BT_DEVICE_NAME=\"KobitoKey2\"
    artifact-name: KobitoKey2_left
    
  - board: seeeduino_xiao_ble
